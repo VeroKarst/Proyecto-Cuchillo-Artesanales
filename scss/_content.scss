@@ -64,6 +64,12 @@ div {
     }
 }
 
+div {
+    h5 {
+        font-size: $fontSizeTitles;
+    }
+}
+
 section {
     li {
         list-style: none;
@@ -74,13 +80,13 @@ section {
 }
 
 header {
-    background: url(../media/fotoindex.PNG);
+    background: url(../media/collageprincipalindex.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: $d-flex;
     justify-content: center;
     align-items: center;
-    height: 36vh;
+    height: 40vh;
     h1 {
         text-transform: uppercase;
         color: black;
