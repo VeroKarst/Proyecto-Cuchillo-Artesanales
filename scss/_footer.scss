@@ -2,8 +2,13 @@ footer {
     padding: $p;
     text-align: center;
     padding-top: 20px;
+    background-color: black;
     img {
+        width: 8%;
         align-items: center;
         padding-right: $p;
+    }
+    p {
+        color: white;
     }
 }
