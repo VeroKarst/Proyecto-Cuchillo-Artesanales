@@ -47,6 +47,13 @@
      color: #ab4493;
  }
  
+ h1 {
+     font-size: $fontSizeTitles;
+     text-align: center;
+     font-style: italic;
+     padding-bottom: 1em;
+ }
+ 
  h3 {
      font-size: $fontSizeMain;
      padding-bottom: 1em;
@@ -204,4 +211,21 @@
  
  #derechos {
      padding-top: 1em;
+ }
+ 
+ #blog {
+     padding-bottom: 2em;
+     text-align: center;
+ }
+ 
+ #productos1 {
+     padding-bottom: 1em;
+ }
+ 
+ #productos2 {
+     padding-bottom: 2em;
+ }
+ 
+ #productos3 {
+     padding-bottom: 2em;
  }
