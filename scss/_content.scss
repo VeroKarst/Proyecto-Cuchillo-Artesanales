@@ -19,13 +19,11 @@
  }
  
  textarea {
-     background-color: #fbfbfb;
      width: 405px;
      height: 150px;
      border-radius: 5px;
      border-style: solid;
      border-width: 1px;
-     border-color: #ab4493;
      margin-top: 10px;
      padding-left: 10px;
      margin-bottom: 20px;
@@ -41,10 +39,6 @@
      p {
          color: #fff;
      }
- }
- 
- span {
-     color: #ab4493;
  }
  
  h1,
@@ -89,20 +83,6 @@
      color: black;
  }
  
- .boton1 {
-     width: 100px;
-     height: 25px;
-     border-radius: 5px;
-     border: none;
-     background: radial-gradient(circle, rgba(128, 120, 123, 0.757) 0%, rgb(122, 137, 155) 100%);
-     transition: 2s;
-     margin-top: 0.5em;
- }
- 
- .boton1:hover {
-     background: radial-gradient(circle, rgb(181, 193, 253) 0%, rgb(248, 185, 197) 100%);
- }
- 
  .aviso {
      font-size: 13px;
      color: #0e0e0e;
@@ -120,14 +100,6 @@
      transform: scale(1.1, 1.2);
  }
  
- .carouselContent {
-     position: center;
-     bottom: 10%;
-     left: 5%;
-     z-index: 20;
-     text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
- }
- 
  .header {
      padding-top: 1em;
  }
@@ -138,6 +110,14 @@
  
  .nosotros {
      padding-bottom: 3em;
+ }
+ 
+ .comentarios {
+     color: rgb(18, 18, 221);
+ }
+ 
+ .margin {
+     margin: 2em;
  }
  /*selectores de id*/
  
@@ -160,6 +140,7 @@
  #textocardproductos {
      color: white;
      text-align: center;
+     margin: 3em;
  }
  
  #derechos {

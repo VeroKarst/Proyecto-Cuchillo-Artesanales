@@ -24,13 +24,11 @@ body {
     margin-bottom: 20px; }
 
 textarea {
-  background-color: #fbfbfb;
   width: 405px;
   height: 150px;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: #ab4493;
   margin-top: 10px;
   padding-left: 10px;
   margin-bottom: 20px;
@@ -42,9 +40,6 @@ label {
 
 button p {
   color: #fff; }
-
-span {
-  color: #ab4493; }
 
 h1,
 h2 {
@@ -76,18 +71,6 @@ section li {
 .color3 {
   color: black; }
 
-.boton1 {
-  width: 100px;
-  height: 25px;
-  border-radius: 5px;
-  border: none;
-  background: radial-gradient(circle, rgba(128, 120, 123, 0.757) 0%, #7a899b 100%);
-  transition: 2s;
-  margin-top: 0.5em; }
-
-.boton1:hover {
-  background: radial-gradient(circle, #b5c1fd 0%, #f8b9c5 100%); }
-
 .aviso {
   font-size: 13px;
   color: #0e0e0e; }
@@ -101,13 +84,6 @@ section li {
 .scale:hover {
   transform: scale(1.1, 1.2); }
 
-.carouselContent {
-  position: center;
-  bottom: 10%;
-  left: 5%;
-  z-index: 20;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
-
 .header {
   padding-top: 1em; }
 
@@ -116,6 +92,12 @@ section li {
 
 .nosotros {
   padding-bottom: 3em; }
+
+.comentarios {
+  color: #1212dd; }
+
+.margin {
+  margin: 2em; }
 
 /*selectores de id*/
 #error404 {
@@ -133,7 +115,8 @@ section li {
 
 #textocardproductos {
   color: white;
-  text-align: center; }
+  text-align: center;
+  margin: 3em; }
 
 #derechos {
   padding-top: 1em; }
@@ -152,9 +135,12 @@ section li {
   padding-bottom: 2em; }
 
 footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+  padding-top: 2%;
   padding: 1em;
   text-align: center;
-  padding-top: 20px;
   background-color: black; }
   footer img {
     width: 8%;
