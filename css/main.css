@@ -99,6 +99,9 @@ section li {
 .margin {
   margin: 2em; }
 
+.footer__link--icono {
+  text-align: center; }
+
 /*selectores de id*/
 #error404 {
   text-align: center;
@@ -135,16 +138,8 @@ section li {
   padding-bottom: 2em; }
 
 footer {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2%;
-  padding-top: 2%;
-  padding: 1em;
-  text-align: center;
   background-color: black; }
-  footer img {
-    width: 8%;
-    align-items: center;
-    padding-right: 1em; }
   footer p {
-    color: white; }
+    color: white;
+    text-align: center;
+    font-size: 1em; }
