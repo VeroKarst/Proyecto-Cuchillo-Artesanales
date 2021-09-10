@@ -18,40 +18,42 @@
 
 <body>
     <!--Inicia Nav-->
-    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">
-                <img src="./media/logo1.png" alt="imagen de cuchillos cruzados">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <header class="position-sticky top-0 nav__z--index">
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./media/logo1.png" alt="imagen de cuchillos cruzados">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" aria-current="page" href="./Paginas/Nosotros.html">Nosotros</a>
-                    <a class="nav-link" href="./Paginas/Productos.html">Productos</a>
-                    <a class="nav-link" href="./Paginas/Blog.html">Blog</a>
-                    <a class="nav-link" href="./Paginas/Contacto.html">Contacto</a>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="./Paginas/Nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="./Paginas/Productos.html">Productos</a>
+                        <a class="nav-link" href="./Paginas/Blog.html">Blog</a>
+                        <a class="nav-link" href="./Paginas/Contacto.html">Contacto</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <!--Termina Nav-->
 
     <!--Inicia Section-->
-    <div class="header">
+    <div class="header__imagen--padding">
         <img src="./media/banner.jpg " class="card-img " alt="... ">
     </div>
     <!--Termina Section-->
 
     <!--Inicia Card 1-->
-    <div id="cardproductos" class="card mb-3" style="max-width: 100%; ">
+    <div id="card__productos--estilo" class="card mb-3" style="max-width: 100%; ">
         <div class="row g-0 ">
             <div class="col-md-4 ">
                 <img src="./media/collage2.jpg " class="img-fluid rounded-start " alt="imagen collage de tres cuchillos de distintas medidas y modelos ">
             </div>
             <div class="col-md-8 ">
-                <div id="textocardproductos" class="card-body ">
+                <div id="card__productos--texto" class="card-body ">
                     <h5 class="card-title">Nuestros Cuchillos</h5>
                     <p class="card-text margin ">Tenemos una gran variedad de modelos, tamaños y materiales. Nuestros productos son fabricados con la mas alta calidad y la producción de los mismos es en forma artesanal. <br> Aqui puede encontrar cuchillos para cocina, para carnes,
                         verduras; cuchillos deportivos; y mucho mas.
@@ -64,13 +66,13 @@
     <!--Termina Card 1-->
 
     <!--Inicia Card 2-->
-    <div id="cardproductos" class="card mb-3" style="max-width: 100%; ">
+    <div id="card__productos--estilo" class="card mb-3" style="max-width: 100%; ">
         <div class="row g-0 ">
             <div class="col-md-4 ">
                 <img src="./media/collage1.jpg " class="img-fluid rounded-start " alt="imagen collage de tres cuchillos de distintas medidas y modelos ">
             </div>
             <div class="col-md-8 ">
-                <div id="textocardproductos" class="card-body ">
+                <div id="card__productos--texto" class="card-body ">
                     <h5 class="card-title">Nuevos Productos <span class="badge bg-danger ">NEW</span></h5>
                     <p class="card-text margin">Como novedad tenemos la incorporacion de productos nuevos, como mates, tablas de madera y los tan solicitados regalos empresariales. <br> No podes dejar de pasar por nuestra seccion de productos y ver las novedades!
                     </p>
@@ -82,13 +84,13 @@
     <!--Termina Card 2-->
 
     <!--Inicia Card 3-->
-    <div id="cardproductos" class="card mb-3" style="max-width: 100%; ">
+    <div id="card__productos--estilo" class="card mb-3" style="max-width: 100%; ">
         <div class="row g-0 ">
             <div class="col-md-4 ">
                 <img src="./media/collageblogindex.jpg " class="img-fluid rounded-start " alt="imagen collage de tres cuchillos de distintas medidas y modelos ">
             </div>
             <div class="col-md-8 ">
-                <div id="textocardproductos" class="card-body ">
+                <div id="card__productos--texto" class="card-body ">
                     <h5 class="card-title ">Visitá Nuestro Blog</h5>
                     <p class="card-text margin ">En nuestro blog podras encontrar los ultimos temas de interes del rubro y los mas interesantes debates. No te pierdas las ultimas opiniones de los expertos!
                     </p>
@@ -100,7 +102,7 @@
     <!--Termina Card 3-->
 
     <!--Inicia Footer-->
-    <footer class="footer">
+    <footer>
         <p>Redes Sociales</p>
         <div class="footer__link--icono">
             <a href="https://www.facebook.com" target="_blank"> <img class="scale" src="../media/iconos/facebook.png" alt="Icono Facebook"></a>

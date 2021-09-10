@@ -6,6 +6,9 @@
 nav img {
   width: 80px; }
 
+.nav__z--index {
+  z-index: 100; }
+
 /*selectores de etiquetas*/
 body {
   font-size: 1.5em;
@@ -38,9 +41,6 @@ label {
   display: block;
   float: center; }
 
-button p {
-  color: #fff; }
-
 h1,
 h2 {
   font-size: 2em;
@@ -65,16 +65,6 @@ section li {
     text-decoration: none; }
 
 /*selectores de clases*/
-.color {
-  color: white; }
-
-.color3 {
-  color: black; }
-
-.aviso {
-  font-size: 13px;
-  color: #0e0e0e; }
-
 .w-80 {
   width: 80%; }
 
@@ -84,57 +74,55 @@ section li {
 .scale:hover {
   transform: scale(1.1, 1.2); }
 
-.header {
+.header__imagen--padding {
   padding-top: 1em; }
 
 .formulario {
   padding-bottom: 2em; }
 
-.nosotros {
+.pagina__nosotros {
   padding-bottom: 3em; }
 
-.comentarios {
-  color: #1212dd; }
-
 .margin {
-  margin: 2em; }
+  margin: 1em; }
 
 .footer__link--icono {
   text-align: center; }
 
 /*selectores de id*/
-#error404 {
+#pagina__error404 {
   text-align: center;
-  padding-top: 1em;
-  background-color: black; }
+  background-color: black;
+  padding: 2em; }
 
-#error404textos {
+#pagina__error404--textos {
   color: white;
-  padding: 1em; }
+  padding: 0.5em; }
 
-#cardproductos {
+#pagina__error404--imagen {
+  width: 30%;
+  padding: 2em; }
+
+#card__productos--estilo {
   margin-top: 20px;
   background-color: black; }
 
-#textocardproductos {
+#card__productos--texto {
   color: white;
   text-align: center;
   margin: 3em; }
 
-#derechos {
-  padding-top: 1em; }
-
-#blog {
+#pagina__blog {
   padding-bottom: 2em;
   text-align: center; }
 
-#productos1 {
+#card__productos1--padding {
   padding-bottom: 1em; }
 
-#productos2 {
+#card__productos2--padding {
   padding-bottom: 2em; }
 
-#productos3 {
+#card__productos3--padding {
   padding-bottom: 2em; }
 
 footer {
