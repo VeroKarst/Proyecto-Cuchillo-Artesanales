@@ -1,20 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Itim&family=Roboto:wght@300&display=swap");
 * {
-  margin: 0;
-  padding: 0; }
+    margin: 0;
+    padding: 0;
+}
 
 nav img {
-  width: 80px; }
+    width: 80px;
+}
 
-.nav__z--index {
-  z-index: 100; }
+.nav__z-index {
+    z-index: 100;
+}
+
 
 /*selectores de etiquetas*/
+
 body {
-  font-size: 1.5em;
-  padding: 1em;
-  background-color: white; }
-  body input {
+    font-size: 1.5em;
+    padding: 1em;
+    background-color: white;
+}
+
+body input {
     background-color: #fbfbfb;
     width: 408px;
     height: 40px;
@@ -24,110 +31,144 @@ body {
     border-color: #ab4493;
     margin-top: 10px;
     padding-left: 10px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+}
 
 textarea {
-  width: 405px;
-  height: 150px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  margin-top: 10px;
-  padding-left: 10px;
-  margin-bottom: 20px;
-  padding-top: 15px; }
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
 
 label {
-  display: block;
-  float: center; }
+    display: block;
+    float: center;
+}
 
 h1,
 h2 {
-  font-size: 2em;
-  text-align: center;
-  font-style: italic;
-  padding-bottom: 1em; }
+    font-size: 2em;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 1em;
+}
 
 h3 {
-  font-size: 1em;
-  padding-bottom: 1em;
-  text-align: center; }
+    font-size: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
 
 p {
-  font-size: 1em; }
+    font-size: 1em;
+}
 
 div h3 {
-  font-size: 1em; }
+    font-size: 1em;
+}
 
 section li {
-  list-style: none; }
-  section li a {
-    text-decoration: none; }
+    list-style: none;
+}
+
+section li a {
+    text-decoration: none;
+}
+
 
 /*selectores de clases*/
+
 .w-80 {
-  width: 80%; }
+    width: 80%;
+}
 
 .h-40 {
-  height: 40%; }
+    height: 40%;
+}
 
 .scale:hover {
-  transform: scale(1.1, 1.2); }
+    transform: scale(1.1, 1.2);
+}
 
 .header__imagen--padding {
-  padding-top: 1em; }
+    padding-top: 1em;
+}
 
 .formulario {
-  padding-bottom: 2em; }
+    padding-bottom: 2em;
+}
 
 .pagina__nosotros {
-  padding-bottom: 3em; }
+    padding-bottom: 3em;
+}
 
 .margin {
-  margin: 1em; }
+    margin: 1em;
+}
 
 .footer__link--icono {
-  text-align: center; }
+    text-align: center;
+}
+
 
 /*selectores de id*/
+
 #pagina__error404 {
-  text-align: center;
-  background-color: black;
-  padding: 2em; }
+    text-align: center;
+    background-color: black;
+    padding: 2em;
+}
 
 #pagina__error404--textos {
-  color: white;
-  padding: 0.5em; }
+    color: white;
+    padding: 0.5em;
+}
 
 #pagina__error404--imagen {
-  width: 30%;
-  padding: 2em; }
+    width: 30%;
+    padding: 2em;
+}
 
 #card__productos--estilo {
-  margin-top: 20px;
-  background-color: black; }
+    margin-top: 20px;
+    background-color: black;
+}
 
 #card__productos--texto {
-  color: white;
-  text-align: center;
-  margin: 3em; }
-
-#pagina__blog {
-  padding-bottom: 2em;
-  text-align: center; }
-
-#card__productos1--padding {
-  padding-bottom: 1em; }
-
-#card__productos2--padding {
-  padding-bottom: 2em; }
-
-#card__productos3--padding {
-  padding-bottom: 2em; }
-
-footer {
-  background-color: black; }
-  footer p {
     color: white;
     text-align: center;
-    font-size: 1em; }
+    margin: 3em;
+}
+
+#pagina__blog {
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+#card__productos1--padding {
+    padding-bottom: 1em;
+}
+
+#card__productos2--padding {
+    padding-bottom: 2em;
+}
+
+#card__productos3--padding {
+    padding-bottom: 2em;
+}
+
+footer {
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
